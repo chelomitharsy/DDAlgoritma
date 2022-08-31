@@ -1,0 +1,29 @@
+algortima:
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke step 2
+Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r
+Step 3 Masukan nilai n ke m dan nilai r ke n. Kembali ke Step 1
+
+pseudocode:
+While n =/ 0 do
+r <- m mod n
+m <- n
+n <- r
+return m
+
+cari nilai KPK dari 3 dan 4!
+tentukan algoritma dan pseudocodenya!
+
+gcd(3,4)*lcm(3,4)=|3*4|
+
+algoritma:
+Step 1 Hitung fpb dari 3 dan 4, hasilnya di simpan
+Step 2 Kali 3 dan 4, hasil kali di bagi dengan hasil dari fpb
+Step 3 Resultnya hasil dari pembagian
+
+pseudocode:
+hasil_gcd = fpb(3, 4)
+lcm (3,4) = |3 * 4| / hasil_gcd
+return result
+
+
+

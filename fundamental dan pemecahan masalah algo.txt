@@ -1,0 +1,63 @@
+algoritma:
+step 1 mendeklarasikan luas, alas, dan tinggi
+step 2 masukan alas=25, tinggi=30
+step 3 menghitung luas = 1/2*alas*tinggi
+step 4 menampilkan luas
+
+pseudocode:
+deklrasi
+var luas, alas, tinggi
+alas <- 25
+tinggi <- 30
+luas <- 1/2*alas*tinggi
+result luas
+
+LATIHAN
+#1
+algoritma:
+step 1 mendeklarasikan luas, alas, dan tinggi
+step 2 masukan luas=5, tinggi=3
+step 3 menghitung luas = alas*tinggi
+step 4 menampilkan luas
+
+pseudocode:
+deklarasi
+var luas, alas, tinggi
+alas <- 5
+tinggi <- 3
+luas <- alas*tinggi
+result luas
+
+#2
+algoritma:
+step 1 mendeklarasikan volume, phi, r, t
+step 2 masukan phi= 3,14, r=3, t=5
+step 3 menghitung volume= phi*r^2*t
+step 4 menampilkan volume
+
+pseudocode:
+deklarasi
+var volume, phi, r, t
+phi <- 3,14
+r <- 3
+t <- 5
+volume <- phi * r^2 * t
+result volume
+
+#3
+algoritma:
+step 1 mendeklarasikan volume, phi, d, r, t, 
+step 2 masukan phi=3,14, d=5, t=4
+step 3 menghitung r= d/2, simpan sebagai r
+step 3 menghitung volume= 1/3*phi*r^2*t
+step 4 menampilkan volume
+
+pseudocode:
+deklarasi
+var, volume, phi, d, r, t
+phi <- 3,14
+d <- 5
+t <- 4
+r <- d/2
+volume <- 1/3*phi*r^2*t
+result volume
